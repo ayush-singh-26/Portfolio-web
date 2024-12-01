@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import './Navbar.css';
-import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -38,16 +37,15 @@ function Navbar() {
       <div className="navbar-collapse">
           <ul className="navbar-nav">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Skill</a></li>
-            <li><a href="#">Project</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="Skill">Skill</a></li>
+            <li><a href="Project">Project</a></li>
+            <li><a href="Contact">Contact</a></li>
           </ul>
       </div>
       <div className="social">
         <ul className="social-icon">
-          <li><a href=""><FaGithub/></a></li>
-          <li><a href=""><FaInstagram /></a></li>
-          <li><a href=""><FaLinkedin /></a></li>
+          <li><a href="https://github.com/ayush-singh-26" target="_blank"><FaGithub/></a></li>
+          <li><a href="https://www.linkedin.com/in/ayush-singh-72673b2b3/" target="_blank"><FaLinkedin /></a></li>
         </ul>
         <button className="connect-btn">Let's Connect</button>
       </div>

@@ -1,47 +1,48 @@
 import React from "react";
-import './Skill.css'
-import colorSharp from "../../assets/img/color-sharp.png"
-import reactImg from '../../assets/react.svg'
+import './Skill.css';
+import colorSharp from "../../assets/img/color-sharp.png";
+import reactImg from '../../assets/react.svg';
+import nodeImg from '../../assets/img/node.svg';
+import mongoImg from '../../assets/img/mongo.svg';
+import expressImg from '../../assets/img/express.svg';
+import cppImg from '../../assets/img/cpp.svg';
+import pythonImg from '../../assets/img/python.svg';
 
 function Skill() {
-
     return (
         <div className="skill">
             <div className="skill-bx">
-
                 <div>
                     <h2>Skills</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, labore!</p>
+                    <p>Proficient in full-stack development with a focus on MERN stack and problem-solving in C++.</p>
                 </div>
                 <div className="skill-item">
                     <div className="item">
-                        <img src={reactImg} alt="" />
-                        <h5>React Js</h5>
+                        <img src={reactImg} alt="React" />
+                        <h5>React.js</h5>
                     </div>
                     <div className="item">
-                        <img src={reactImg} alt="" />
-                        <h5>React</h5>
+                        <img src={nodeImg} alt="Node.js" />
+                        <h5>Node.js</h5>
                     </div>
                     <div className="item">
-                        <img src={reactImg} alt="" />
-                        <h5>React</h5>
+                        <img src={mongoImg} alt="MongoDB" />
+                        <h5>MongoDB</h5>
                     </div>
                     <div className="item">
-                        <img src={reactImg} alt="" />
-                        <h5>React</h5>
+                        <img src={expressImg} alt="Express.js" />
+                        <h5>Express.js</h5>
                     </div>
                     <div className="item">
-                        <img src={reactImg} alt="" />
-                        <h5>React</h5>
+                        <img src={cppImg} alt="C++" />
+                        <h5>C++</h5>
                     </div>
                     <div className="item">
-                        <img src={reactImg} alt="" />
-                        <h5>React</h5>
+                        <img src={pythonImg} alt="Python" />
+                        <h5>Python</h5>
                     </div>
-
                 </div>
             </div>
-            {/* <img src={colorSharp} alt="" /> */}
         </div>
     );
 }

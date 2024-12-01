@@ -10,7 +10,7 @@ import pythonImg from '../../assets/img/python.svg';
 
 function Skill() {
     return (
-        <div className="skill">
+        <div className="skill" id="skill">
             <div className="skill-bx">
                 <div>
                     <h2>Skills</h2>

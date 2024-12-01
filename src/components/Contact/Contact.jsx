@@ -6,7 +6,7 @@ import colorSharp2 from '../../assets/img/color-sharp2.png';
 function Contact() {
     return (
 
-        <section className="contact">
+        <section className="contact" id="contact">
             <div className="contact-logo">
                 <img className="contactImg" src={contactImg} alt="Contact Us" />
             </div>

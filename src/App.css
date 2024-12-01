@@ -111,7 +111,6 @@ a:focus, button:focus, input:focus {
   background: #888;
 }
 
-/* Mobile & Tablet Media Queries */
 @media (max-width: 991px) {
   body {
     font-size: 16px;

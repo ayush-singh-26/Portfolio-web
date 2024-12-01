@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #121212 !important;
+  background-image: url('./assets/img/banner-bg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  /* background-size: cover; */
+
+  color: #fff !important;
+  font-family: 'Centra', sans-serif !important;
+  line-height: 1.5; /* Better readability */
+}
+
+
+
+/* Header and Section Styling */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* img {
+  width: 100%;
+  height: auto;
+} */
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+/* Buttons */
+button {
+  cursor: pointer; /* Make buttons more interactive */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+  transform: translateY(-3px); /* Subtle lift effect on hover */
+}
+
+/* Success and Error Messages */
+p.success {
+  color: green;
+}
+
+p.danger {
+  color: red;
+}
+
+/* Responsive Container */
+@media (min-width: 1700px) {
+  main .container {
+    max-width: 100%;
+    padding: 0 150px;
+  }
+}
+
+/* Global Link Styling */
+a {
+  color: inherit; /* Inherit color from parent, make sure links are styled properly */
+}
+
+a:active {
+  color: #FF6F61; /* Change color on active for better visual feedback */
+}
+
+a:focus, button:focus, input:focus {
+  outline: 3px solid #FF6F61; /* Provide a visible focus outline for accessibility */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+/* Mobile & Tablet Media Queries */
+@media (max-width: 991px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
+
+/* Ensure text is readable on all screen sizes */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+

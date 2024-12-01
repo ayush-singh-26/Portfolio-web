@@ -1,0 +1,46 @@
+/* Navbar */
+.navbar {
+  /* position: fixed; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 50px;
+  transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 2;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  gap: 40px; 
+}
+.navbar-nav ul li a{
+  font-size: bold;
+}
+
+.social{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.social-icon{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.connect-btn{
+  font-size: 14px;
+  background-color: #FF6F61;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}

@@ -1,8 +1,8 @@
 import React from "react";
 import './Projects.css';
 import weatheryze from '../../assets/img/Weatheryze.png';
-import blogApp from '../../assets/img/blogApp.png';
-import landingWebsite from '../../assets/img/landingWebsite.png';
+import blogApp from '../../assets/img/BlogApp.png';
+import landingWebsite from '../../assets/img/LandingWebsite.png';
 import flashCardTool from '../../assets/img/flashCardTool.png';
 
 function Projects() {

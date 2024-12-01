@@ -1,6 +1,6 @@
 import React from "react";
 import './Projects.css';
-import weatheryze from '../../assets/img/weatheryze.png';
+import weatheryze from '../../assets/img/Weatheryze.png';
 import blogApp from '../../assets/img/blogApp.png';
 import landingWebsite from '../../assets/img/landingWebsite.png';
 import flashCardTool from '../../assets/img/flashCardTool.png';

@@ -1,9 +1,10 @@
 import React from "react";
+import './Footer.css'
 
-function Folder() {
+function Footer() {
   return(
     <footer className="footer">
-        <div className="container">
+       
             <div className="row">
                 mail
                 <div>
@@ -18,9 +19,8 @@ function Folder() {
                     <p>Copyright 2024. All Rights Reserved</p>
                 </div>
             </div>
-        </div>
     </footer>
   );
 }
 
-export default Folder;
+export default Footer;

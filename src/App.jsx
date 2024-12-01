@@ -1,6 +1,7 @@
 import './App.css'
 import Banner from './components/Banner/Banner'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Folder/Footer'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects/Projects'
 import Skill from './components/Skill/Skill'
@@ -13,9 +14,10 @@ function App() {
 
       <Navbar/>
       <Banner/>   
-      {/* <Skill/>
+      <Skill/>
       <Projects/>
-      <Contact/> */}
+      <Contact/>
+      <Footer/>
     </div>
     
     
